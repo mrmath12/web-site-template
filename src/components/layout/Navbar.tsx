@@ -75,6 +75,7 @@ export default function Navbar() {
         <div className="md:hidden">
           <button
             aria-label="Open menu"
+            aria-expanded={open}
             onClick={() => setOpen(true)}
             className="p-2 text-white"
           >

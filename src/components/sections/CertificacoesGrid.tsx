@@ -50,9 +50,10 @@ export function CertificacoesGrid({ certifications }: CertificacoesGridProps) {
               href={cert.pdfUrl}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`View PDF for ${cert.name}`}
               className="inline-flex items-center justify-center rounded-md bg-[#1E6FA8] hover:bg-[#155a8a] text-white text-sm font-semibold px-5 py-2 transition-colors duration-200 mt-auto"
             >
-              View
+              View PDF
             </a>
           ) : (
             <span className="inline-block rounded-full bg-[#6B7280]/15 text-[#6B7280] text-xs font-medium px-4 py-1.5 mt-auto">

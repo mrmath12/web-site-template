@@ -14,7 +14,7 @@ export default function ProductsPage() {
   const products = getAllProducts()
 
   return (
-    <>
+    <main>
       <HeroInterno
         title="Products"
         subtitle="[Brief tagline for your products page — what you offer and who it is for]"
@@ -26,6 +26,6 @@ export default function ProductsPage() {
           <CatalogGrid items={products} basePath="/products" />
         </div>
       </section>
-    </>
+    </main>
   )
 }

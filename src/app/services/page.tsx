@@ -14,7 +14,7 @@ export default function ServicesPage() {
   const services = getAllServices()
 
   return (
-    <>
+    <main>
       <HeroInterno
         title="Services"
         subtitle="[Brief tagline for your services page — what you offer and who it is for]"
@@ -26,6 +26,6 @@ export default function ServicesPage() {
           <CatalogGrid items={services} basePath="/services" />
         </div>
       </section>
-    </>
+    </main>
   )
 }

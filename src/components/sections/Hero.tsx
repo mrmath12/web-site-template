@@ -19,7 +19,7 @@ export function Hero({ title, subtitle, primaryCta, secondaryCta }: HeroProps) {
           Place the file at public/images/hero/hero-bg.jpg */}
       <Image
         src="/images/hero/hero-bg-placeholder.svg"
-        alt="Hero background"
+        alt=""
         fill
         priority
         className="object-cover"
