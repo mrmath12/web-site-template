@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import { HeroInterno } from '@/components/sections/HeroInterno'
 import { CatalogGrid } from '@/components/catalog/CatalogGrid'
 import { getAllProducts } from '@/lib/products'
+import { siteConfig } from '@/config/site'
 
 export const metadata: Metadata = {
   title: 'Products',
-  description: 'Catálogo completo de produtos [Company Name] para o setor offshore.',
-  openGraph: { images: [{ url: '/og?type=generic' }] },
+  description: '[Describe your full product catalog and what industries or sectors you serve.]',
+  openGraph: { images: [{ url: siteConfig.meta.ogImage }] },
 }
 
 export default function ProductsPage() {
@@ -15,8 +16,8 @@ export default function ProductsPage() {
   return (
     <>
       <HeroInterno
-        title="Produtos"
-        subtitle="Catálogo completo de equipamentos e soluções para o setor offshore"
+        title="Products"
+        subtitle="[Brief tagline for your products page — what you offer and who it is for]"
       />
 
       <section className="py-20 bg-surface">

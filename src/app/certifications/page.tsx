@@ -7,7 +7,7 @@ import { siteConfig } from '@/config/site'
 export const metadata: Metadata = {
   title: 'Certifications',
   description: `Certifications and compliance standards maintained by ${siteConfig.name}.`,
-  openGraph: { images: [{ url: siteConfig.meta.ogImage }] },
+  openGraph: { locale: 'pt_BR', images: [{ url: siteConfig.meta.ogImage }] },
 }
 
 export default function CertificacoesPage() {

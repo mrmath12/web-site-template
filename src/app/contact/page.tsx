@@ -7,7 +7,7 @@ import { siteConfig } from '@/config/site'
 export const metadata: Metadata = {
   title: 'Contact',
   description: `Get in touch with ${siteConfig.name}. We are here to help.`,
-  openGraph: { images: [{ url: siteConfig.meta.ogImage }] },
+  openGraph: { locale: 'pt_BR', images: [{ url: siteConfig.meta.ogImage }] },
 }
 
 const localBusinessSchema = {
@@ -18,10 +18,10 @@ const localBusinessSchema = {
   email: siteConfig.contact.email,
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '[Street Address]',  // TODO: replace with real street address
-    addressLocality: '[City]',          // TODO: replace with real city
-    addressRegion: '[State/Region]',    // TODO: replace with real state/region
-    addressCountry: '[XX]',             // TODO: replace with 2-letter country code (e.g. US)
+    streetAddress: siteConfig.contact.addressStreet,
+    addressLocality: siteConfig.contact.addressLocality,
+    addressRegion: siteConfig.contact.addressRegion,
+    addressCountry: siteConfig.contact.addressCountry,
   },
   openingHours: siteConfig.contact.hoursJsonLd,
 }

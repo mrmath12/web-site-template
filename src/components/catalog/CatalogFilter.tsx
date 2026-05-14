@@ -31,7 +31,7 @@ export function CatalogFilter({ categories, activeCategory, onCategoryChange }: 
             : 'bg-surface text-text-main hover:bg-[#0A2342]/10'
         }`}
       >
-        Todos
+        All
       </button>
 
       {categories.map((cat) => (

@@ -8,7 +8,7 @@ import { siteConfig } from '@/config/site'
 export const metadata: Metadata = {
   title: 'Location',
   description: `Find ${siteConfig.name} — our infrastructure and location details.`,
-  openGraph: { images: [{ url: siteConfig.meta.ogImage }] },
+  openGraph: { locale: 'pt_BR', images: [{ url: siteConfig.meta.ogImage }] },
 }
 
 // TODO: replace these rows with your company's real facility and infrastructure data
@@ -16,7 +16,7 @@ const infraItems = [
   { label: '[Facility Spec 1]', value: '[Value 1]' },
   { label: '[Facility Spec 2]', value: '[Value 2]' },
   { label: '[Facility Spec 3]', value: '[Value 3]' },
-  { label: 'Location', value: siteConfig.contact.address },
+  { label: '[Facility Spec 4]', value: '[Value 4]' },
   { label: '[Facility Spec 5]', value: '[Value 5]' },
   { label: '[Facility Spec 6]', value: '[Value 6]' },
   { label: '[Facility Spec 7]', value: '[Value 7]' },

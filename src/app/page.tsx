@@ -23,9 +23,9 @@ const organizationSchema = {
   description: siteConfig.tagline,
   address: {
     '@type': 'PostalAddress',
-    addressLocality: '[City]',       // TODO: replace with real city
-    addressRegion: '[State/Region]', // TODO: replace with real state/region
-    addressCountry: '[XX]',          // TODO: replace with 2-letter country code (e.g. US)
+    addressLocality: siteConfig.contact.addressLocality,
+    addressRegion: siteConfig.contact.addressRegion,
+    addressCountry: siteConfig.contact.addressCountry,
   },
   contactPoint: {
     '@type': 'ContactPoint',

@@ -23,13 +23,16 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default: `${siteConfig.name} — ${siteConfig.tagline}`,
-    template: siteConfig.meta.titleTemplate,
+    template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
   keywords: [...siteConfig.meta.keywords],
+  alternates: {
+    canonical: siteConfig.url,
+  },
   openGraph: {
     type: 'website',
-    locale: 'en_US', // TODO: change locale if targeting a non-English market (e.g. 'pt_BR')
+    locale: 'pt_BR',
     url: siteConfig.url,
     siteName: siteConfig.name,
   },
@@ -41,7 +44,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${sora.variable}`}>
+    <html lang="pt-BR" className={`${inter.variable} ${sora.variable}`}>
       <body className="font-body">
         <Navbar />
         {children}

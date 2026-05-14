@@ -18,7 +18,7 @@ export async function generateMetadata({
   params: { slug: string }
 }): Promise<Metadata> {
   const service = getServiceBySlug(params.slug)
-  if (!service) return { title: 'Serviço não encontrado' }
+  if (!service) return { title: 'Service not found' }
   return {
     title: service.name,
     description: service.shortDescription,

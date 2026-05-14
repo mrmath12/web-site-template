@@ -2,11 +2,12 @@ import type { Metadata } from 'next'
 import { HeroInterno } from '@/components/sections/HeroInterno'
 import { CatalogGrid } from '@/components/catalog/CatalogGrid'
 import { getAllServices } from '@/lib/services'
+import { siteConfig } from '@/config/site'
 
 export const metadata: Metadata = {
   title: 'Services',
-  description: 'Soluções completas de manutenção, inspeção e logística para o setor offshore.',
-  openGraph: { images: [{ url: '/og?type=generic' }] },
+  description: '[Describe your complete service offering and what industries or sectors you serve.]',
+  openGraph: { images: [{ url: siteConfig.meta.ogImage }] },
 }
 
 export default function ServicesPage() {
@@ -16,7 +17,7 @@ export default function ServicesPage() {
     <>
       <HeroInterno
         title="Services"
-        subtitle="Soluções completas de manutenção, inspeção e logística para o setor offshore"
+        subtitle="[Brief tagline for your services page — what you offer and who it is for]"
       />
 
       <section className="py-20 bg-surface">
