@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "slug": "service-alpha",
+    "name": "[Service Name Alpha]",
+    "category": "maintenance",
+    "shortDescription": "[Short description of Service Alpha — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Service Alpha. Describe the service scope, methodology, team qualifications, certifications, and why clients choose it. This text appears on the service detail page.]",
+    "specs": [
+      { "label": "[Spec Label 1]", "value": "[Spec Value 1]" },
+      { "label": "[Spec Label 2]", "value": "[Spec Value 2]" },
+      { "label": "[Spec Label 3]", "value": "[Spec Value 3]" },
+      { "label": "[Spec Label 4]", "value": "[Spec Value 4]" }
+    ],
+    "applications": [
+      "[Application or industry 1]",
+      "[Application or industry 2]",
+      "[Application or industry 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Service Name Alpha] and would like more information.",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "slug": "service-beta",
+    "name": "[Service Name Beta]",
+    "category": "logistics",
+    "shortDescription": "[Short description of Service Beta — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Service Beta. Describe the service scope, methodology, team qualifications, certifications, and why clients choose it. This text appears on the service detail page.]",
+    "specs": [
+      { "label": "[Spec Label 1]", "value": "[Spec Value 1]" },
+      { "label": "[Spec Label 2]", "value": "[Spec Value 2]" },
+      { "label": "[Spec Label 3]", "value": "[Spec Value 3]" },
+      { "label": "[Spec Label 4]", "value": "[Spec Value 4]" }
+    ],
+    "applications": [
+      "[Application or industry 1]",
+      "[Application or industry 2]",
+      "[Application or industry 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Service Name Beta] and would like more information.",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "slug": "service-gamma",
+    "name": "[Service Name Gamma]",
+    "category": "inspection",
+    "shortDescription": "[Short description of Service Gamma — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Service Gamma. Describe the service scope, methodology, team qualifications, certifications, and why clients choose it. This text appears on the service detail page.]",
+    "specs": [
+      { "label": "[Spec Label 1]", "value": "[Spec Value 1]" },
+      { "label": "[Spec Label 2]", "value": "[Spec Value 2]" },
+      { "label": "[Spec Label 3]", "value": "[Spec Value 3]" },
+      { "label": "[Spec Label 4]", "value": "[Spec Value 4]" }
+    ],
+    "applications": [
+      "[Application or industry 1]",
+      "[Application or industry 2]",
+      "[Application or industry 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Service Name Gamma] and would like more information.",
+    "featured": true
+  },
+  {
+    "id": "4",
+    "slug": "service-delta",
+    "name": "[Service Name Delta]",
+    "category": "consulting",
+    "shortDescription": "[Short description of Service Delta — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Service Delta. Describe the service scope, methodology, team qualifications, certifications, and why clients choose it. This text appears on the service detail page.]",
+    "specs": [
+      { "label": "[Spec Label 1]", "value": "[Spec Value 1]" },
+      { "label": "[Spec Label 2]", "value": "[Spec Value 2]" },
+      { "label": "[Spec Label 3]", "value": "[Spec Value 3]" },
+      { "label": "[Spec Label 4]", "value": "[Spec Value 4]" }
+    ],
+    "applications": [
+      "[Application or industry 1]",
+      "[Application or industry 2]",
+      "[Application or industry 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Service Name Delta] and would like more information.",
+    "featured": false
+  }
+]

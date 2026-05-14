@@ -1,0 +1,6 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- TODO: Replace with your company logo (color version — for light backgrounds).
+       Recommended: SVG, max 160x40 px. Keep the filename logo.svg. -->
+  <rect width="158" height="38" x="1" y="1" rx="4" stroke="rgba(10,35,66,0.4)" stroke-width="1.5" fill="none" stroke-dasharray="5 3"/>
+  <text x="80" y="24" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="rgba(10,35,66,0.6)" text-anchor="middle" letter-spacing="1.5">YOUR LOGO HERE</text>
+</svg>

@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "slug": "product-alpha",
+    "name": "[Product Name Alpha]",
+    "category": "supply",
+    "shortDescription": "[Short description of Product Alpha — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Product Alpha. Describe the product in detail: materials, specifications, available configurations, certifications, and why customers choose it. This text appears on the product detail page.]",
+    "specs": [
+      { "label": "[Specification Label 1]", "value": "[Specification Value 1]" },
+      { "label": "[Specification Label 2]", "value": "[Specification Value 2]" },
+      { "label": "[Specification Label 3]", "value": "[Specification Value 3]" },
+      { "label": "[Specification Label 4]", "value": "[Specification Value 4]" }
+    ],
+    "applications": [
+      "[Use case or application 1]",
+      "[Use case or application 2]",
+      "[Use case or application 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Product Name Alpha] and would like more information.",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "slug": "product-beta",
+    "name": "[Product Name Beta]",
+    "category": "supply",
+    "shortDescription": "[Short description of Product Beta — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Product Beta. Describe the product in detail: materials, specifications, available configurations, certifications, and why customers choose it. This text appears on the product detail page.]",
+    "specs": [
+      { "label": "[Specification Label 1]", "value": "[Specification Value 1]" },
+      { "label": "[Specification Label 2]", "value": "[Specification Value 2]" },
+      { "label": "[Specification Label 3]", "value": "[Specification Value 3]" },
+      { "label": "[Specification Label 4]", "value": "[Specification Value 4]" }
+    ],
+    "applications": [
+      "[Use case or application 1]",
+      "[Use case or application 2]",
+      "[Use case or application 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Product Name Beta] and would like more information.",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "slug": "product-gamma",
+    "name": "[Product Name Gamma]",
+    "category": "equipment",
+    "shortDescription": "[Short description of Product Gamma — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Product Gamma. Describe the product in detail: materials, specifications, available configurations, certifications, and why customers choose it. This text appears on the product detail page.]",
+    "specs": [
+      { "label": "[Specification Label 1]", "value": "[Specification Value 1]" },
+      { "label": "[Specification Label 2]", "value": "[Specification Value 2]" },
+      { "label": "[Specification Label 3]", "value": "[Specification Value 3]" },
+      { "label": "[Specification Label 4]", "value": "[Specification Value 4]" }
+    ],
+    "applications": [
+      "[Use case or application 1]",
+      "[Use case or application 2]",
+      "[Use case or application 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Product Name Gamma] and would like more information.",
+    "featured": true
+  },
+  {
+    "id": "4",
+    "slug": "product-delta",
+    "name": "[Product Name Delta]",
+    "category": "materials",
+    "shortDescription": "[Short description of Product Delta — 1–2 sentences describing what it is and its key benefit.]",
+    "fullDescription": "[Full description of Product Delta. Describe the product in detail: materials, specifications, available configurations, certifications, and why customers choose it. This text appears on the product detail page.]",
+    "specs": [
+      { "label": "[Specification Label 1]", "value": "[Specification Value 1]" },
+      { "label": "[Specification Label 2]", "value": "[Specification Value 2]" },
+      { "label": "[Specification Label 3]", "value": "[Specification Value 3]" },
+      { "label": "[Specification Label 4]", "value": "[Specification Value 4]" }
+    ],
+    "applications": [
+      "[Use case or application 1]",
+      "[Use case or application 2]",
+      "[Use case or application 3]"
+    ],
+    "image": "/images/placeholder.svg",
+    "whatsappMessage": "Hello! I am interested in [Product Name Delta] and would like more information.",
+    "featured": false
+  }
+]
