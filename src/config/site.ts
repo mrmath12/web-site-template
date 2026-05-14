@@ -24,7 +24,11 @@ export const siteConfig = {
       greeting:
         'Hello! I came from your website and would like more information.', // TODO: customize greeting
     },
-    address: '[Your Street Address, City, State/Country]', // TODO: replace with real address
+    address: '[Your Street Address, City, State/Country]', // TODO: replace with real formatted address
+    addressStreet: '[Street Address]',      // TODO: replace with real street address
+    addressLocality: '[City]',              // TODO: replace with real city
+    addressRegion: '[State/Region]',        // TODO: replace with real state or region
+    addressCountry: '[XX]',                 // TODO: replace with 2-letter country code (e.g. US, BR)
     hours: 'Monday–Friday, 9am–5pm',       // TODO: replace with real business hours
     hoursJsonLd: 'Mo-Fr 09:00-17:00',      // TODO: replace in JSON-LD format (e.g. 'Mo-Fr 08:00-18:00')
   },
@@ -38,8 +42,7 @@ export const siteConfig = {
 
   // ── SEO & Open Graph ───────────────────────────────────────────────────────
   meta: {
-    titleTemplate: '%s | [Company Name]', // TODO: replace [Company Name]
-    ogImage: '/og?type=generic',          // TODO: replace with a real OG image path (1200×630px recommended)
+    ogImage: '/og?type=generic',          // default OG image — update after launch if needed
     keywords: ['[keyword 1]', '[keyword 2]', '[keyword 3]'], // TODO: replace with real SEO keywords
   },
 } as const

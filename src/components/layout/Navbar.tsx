@@ -46,8 +46,9 @@ export default function Navbar() {
           <Image
             src="/images/logo/logo-white.svg"
             alt={siteConfig.name}
-            width={120}
-            height={36}
+            width={160}
+            height={40}
+            style={{ width: '120px', height: 'auto' }}
             priority
           />
         </Link>

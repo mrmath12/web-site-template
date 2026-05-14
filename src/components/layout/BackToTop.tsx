@@ -28,7 +28,7 @@ export default function BackToTop() {
           exit={{ opacity: 0, scale: 0.8 }}
           transition={{ duration: 0.2 }}
           onClick={scrollToTop}
-          aria-label="Voltar ao topo"
+          aria-label="Back to top"
           className="fixed bottom-6 right-6 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-[#F0A500] text-white shadow-lg transition-colors hover:bg-[#D4920A]"
         >
           <ChevronUp size={22} />
