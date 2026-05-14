@@ -119,7 +119,7 @@ export default function SobrePage() {
                 <div className="relative w-[120px] h-[120px] mb-4">
                   {/* TODO: replace placeholder with real team member photo (recommended: 120x120px, square, JPG/WebP) */}
                   <Image
-                    src={member.image || '/images/placeholder.svg'}
+                    src={member.image || '/images/team/team-placeholder.svg'}
                     alt={member.name}
                     fill
                     className="object-cover rounded-full"
@@ -145,7 +145,7 @@ export default function SobrePage() {
             {[1, 2, 3].map((i) => (
               <div key={i} className="relative aspect-[4/3] overflow-hidden rounded-xl shadow-md">
                 <Image
-                  src="/images/placeholder.svg"
+                  src="/images/facility/facility-placeholder.svg"
                   alt={`Facility ${i}`}
                   fill
                   className="object-cover"

@@ -17,7 +17,7 @@
       "[Use case or application 2]",
       "[Use case or application 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/products/product-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Product Name Alpha] and would like more information.",
     "featured": true
   },
@@ -39,7 +39,7 @@
       "[Use case or application 2]",
       "[Use case or application 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/products/product-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Product Name Beta] and would like more information.",
     "featured": true
   },
@@ -61,7 +61,7 @@
       "[Use case or application 2]",
       "[Use case or application 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/products/product-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Product Name Gamma] and would like more information.",
     "featured": true
   },
@@ -83,7 +83,7 @@
       "[Use case or application 2]",
       "[Use case or application 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/products/product-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Product Name Delta] and would like more information.",
     "featured": false
   }

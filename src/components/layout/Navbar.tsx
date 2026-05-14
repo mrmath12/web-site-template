@@ -13,12 +13,12 @@ import { siteConfig } from '@/config/site'
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/sobre', label: 'About' },
-  { href: '/localizacao', label: 'Location' },
-  { href: '/certificacoes', label: 'Certifications' },
-  { href: '/produtos', label: 'Products' },
-  { href: '/servicos', label: 'Services' },
-  { href: '/contato', label: 'Contact' },
+  { href: '/about', label: 'About' },
+  { href: '/products', label: 'Products' },
+  { href: '/services', label: 'Services' },
+  { href: '/location', label: 'Location' },
+  { href: '/certifications', label: 'Certifications' },
+  { href: '/contact', label: 'Contact' },
 ]
 
 export default function Navbar() {

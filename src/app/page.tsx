@@ -50,8 +50,8 @@ export default function Home() {
         <Hero
           title={siteConfig.tagline}
           subtitle={siteConfig.description}
-          primaryCta={{ label: 'View Products', href: '/produtos' }}
-          secondaryCta={{ label: 'Contact Us', href: '/contato' }}
+          primaryCta={{ label: 'View Products', href: '/products' }}
+          secondaryCta={{ label: 'Contact Us', href: '/contact' }}
         />
 
         {/* Differentials */}
@@ -69,7 +69,7 @@ export default function Home() {
               {siteConfig.description}
             </p>
             <Link
-              href="/sobre"
+              href="/about"
               className="inline-flex items-center justify-center rounded-md border-2 border-[#0A2342] text-[#0A2342] hover:bg-[#0A2342] hover:text-white font-semibold px-8 py-3 text-base transition-colors duration-200"
             >
               Learn More
@@ -82,8 +82,8 @@ export default function Home() {
           <FeaturedGrid
             title="Featured Products"
             items={featuredProducts}
-            basePath="/produtos"
-            viewAllHref="/produtos"
+            basePath="/products"
+            viewAllHref="/products"
           />
         </div>
 
@@ -91,8 +91,8 @@ export default function Home() {
         <FeaturedGrid
           title="Featured Services"
           items={featuredServices}
-          basePath="/servicos"
-          viewAllHref="/servicos"
+          basePath="/services"
+          viewAllHref="/services"
         />
 
         {/* YouTubeEmbed — hidden in v1 (video to be provided by the client)

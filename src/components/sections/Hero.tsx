@@ -18,7 +18,7 @@ export function Hero({ title, subtitle, primaryCta, secondaryCta }: HeroProps) {
       {/* TODO: replace /images/hero/hero-bg.jpg with a real hero image (recommended: 1920x1080px, JPG or WebP).
           Place the file at public/images/hero/hero-bg.jpg */}
       <Image
-        src="/images/placeholder.svg"
+        src="/images/hero/hero-bg-placeholder.svg"
         alt="Hero background"
         fill
         priority

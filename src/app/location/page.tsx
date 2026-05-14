@@ -66,7 +66,7 @@ export default function LocalizacaoPage() {
             {[1, 2, 3].map((i) => (
               <div key={i} className="relative aspect-[4/3] overflow-hidden rounded-xl shadow-md">
                 <Image
-                  src="/images/placeholder.svg"
+                  src="/images/facility/facility-placeholder.svg"
                   alt={`Facility view ${i}`}
                   fill
                   className="object-cover"

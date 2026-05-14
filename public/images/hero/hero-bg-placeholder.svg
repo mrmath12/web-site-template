@@ -1,0 +1,103 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4A90D9"/>
+      <stop offset="50%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#D0EEFA"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B9E5E"/>
+      <stop offset="100%" stop-color="#3E6E38"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5BA3C9"/>
+      <stop offset="100%" stop-color="#3A7EA8"/>
+    </linearGradient>
+    <linearGradient id="mtFar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B8CFA8"/>
+      <stop offset="100%" stop-color="#8FAF7E"/>
+    </linearGradient>
+    <linearGradient id="mtNear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7B9E6B"/>
+      <stop offset="100%" stop-color="#4A7A42"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE066" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#FFE066" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+
+  <!-- Sun glow -->
+  <ellipse cx="960" cy="400" rx="300" ry="240" fill="url(#sunGlow)"/>
+
+  <!-- Sun -->
+  <circle cx="960" cy="380" r="60" fill="#FFF176"/>
+  <circle cx="960" cy="380" r="48" fill="#FFEE58"/>
+
+  <!-- Clouds -->
+  <g opacity="0.9" fill="white">
+    <ellipse cx="280" cy="200" rx="120" ry="46"/>
+    <ellipse cx="190" cy="212" rx="78" ry="38"/>
+    <ellipse cx="370" cy="214" rx="88" ry="36"/>
+  </g>
+  <g opacity="0.8" fill="white">
+    <ellipse cx="1620" cy="155" rx="140" ry="50"/>
+    <ellipse cx="1520" cy="168" rx="88" ry="40"/>
+    <ellipse cx="1720" cy="166" rx="100" ry="38"/>
+  </g>
+  <g opacity="0.65" fill="white">
+    <ellipse cx="700" cy="130" rx="100" ry="36"/>
+    <ellipse cx="620" cy="142" rx="68" ry="30"/>
+    <ellipse cx="790" cy="140" rx="78" ry="28"/>
+  </g>
+  <g opacity="0.6" fill="white">
+    <ellipse cx="1250" cy="175" rx="108" ry="38"/>
+    <ellipse cx="1165" cy="186" rx="72" ry="32"/>
+    <ellipse cx="1340" cy="184" rx="82" ry="30"/>
+  </g>
+
+  <!-- Far mountains -->
+  <polygon points="0,640 220,410 440,640"    fill="url(#mtFar)" opacity="0.6"/>
+  <polygon points="320,640 570,370 820,640"  fill="url(#mtFar)" opacity="0.55"/>
+  <polygon points="700,640 940,385 1180,640" fill="url(#mtFar)" opacity="0.58"/>
+  <polygon points="1060,640 1310,360 1560,640" fill="url(#mtFar)" opacity="0.55"/>
+  <polygon points="1430,640 1680,378 1920,640" fill="url(#mtFar)" opacity="0.6"/>
+
+  <!-- Near mountains -->
+  <polygon points="0,720 200,530 420,720"     fill="url(#mtNear)"/>
+  <polygon points="300,720 520,500 740,720"   fill="url(#mtNear)"/>
+  <polygon points="620,720 840,480 1060,720"  fill="url(#mtNear)"/>
+  <polygon points="940,720 1170,510 1400,720" fill="url(#mtNear)"/>
+  <polygon points="1280,720 1500,490 1720,720" fill="url(#mtNear)"/>
+  <polygon points="1600,720 1800,520 1920,720" fill="url(#mtNear)"/>
+
+  <!-- Ground -->
+  <rect x="0" y="710" width="1920" height="370" fill="url(#ground)"/>
+
+  <!-- Lake -->
+  <ellipse cx="960" cy="810" rx="460" ry="80" fill="url(#water)" opacity="0.72"/>
+  <ellipse cx="960" cy="800" rx="80" ry="16" fill="#FFF9C4" opacity="0.5"/>
+
+  <!-- Foreground hills -->
+  <ellipse cx="160"  cy="980" rx="360" ry="160" fill="#3E6E38"/>
+  <ellipse cx="1760" cy="990" rx="380" ry="155" fill="#375F32"/>
+
+  <!-- Trees left -->
+  <g fill="#2D5827">
+    <polygon points="50,790  80,690  110,790"/>
+    <polygon points="115,800 150,688 185,800"/>
+    <polygon points="20,815  50,722  80,815"/>
+  </g>
+  <!-- Trees right -->
+  <g fill="#2D5827">
+    <polygon points="1810,790 1840,690 1870,790"/>
+    <polygon points="1740,800 1775,688 1810,800"/>
+    <polygon points="1848,815 1878,722 1908,815"/>
+  </g>
+
+  <!-- Horizon warmth -->
+  <rect x="0" y="618" width="1920" height="24" fill="#FFE0A0" opacity="0.15"/>
+</svg>

@@ -3,36 +3,36 @@
     "id": "1",
     "name": "[Team Member Name 1]",
     "role": "[Job Title 1]",
-    "image": "/images/placeholder.svg"
+    "image": "/images/team/avatar-1.svg"
   },
   {
     "id": "2",
     "name": "[Team Member Name 2]",
     "role": "[Job Title 2]",
-    "image": "/images/placeholder.svg"
+    "image": "/images/team/avatar-2.svg"
   },
   {
     "id": "3",
     "name": "[Team Member Name 3]",
     "role": "[Job Title 3]",
-    "image": "/images/placeholder.svg"
+    "image": "/images/team/avatar-3.svg"
   },
   {
     "id": "4",
     "name": "[Team Member Name 4]",
     "role": "[Job Title 4]",
-    "image": "/images/placeholder.svg"
+    "image": "/images/team/avatar-4.svg"
   },
   {
     "id": "5",
     "name": "[Team Member Name 5]",
     "role": "[Job Title 5]",
-    "image": "/images/placeholder.svg"
+    "image": "/images/team/avatar-5.svg"
   },
   {
     "id": "6",
     "name": "[Team Member Name 6]",
     "role": "[Job Title 6]",
-    "image": "/images/placeholder.svg"
+    "image": "/images/team/avatar-6.svg"
   }
 ]

@@ -6,7 +6,7 @@
  * (sugestão: 3+ categorias com 5+ itens cada).
  *
  * Para ativar:
- * 1. Importar em `/produtos/page.tsx` e `/servicos/page.tsx`
+ * 1. Import in `/products/page.tsx` and `/services/page.tsx`
  * 2. Converter as páginas de listagem para Client Components (adicionar 'use client')
  *    OU extrair o estado de filtro para um componente wrapper client
  * 3. Filtrar o array de items passado ao CatalogGrid com base na categoria ativa

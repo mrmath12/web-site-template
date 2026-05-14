@@ -17,7 +17,7 @@
       "[Application or industry 2]",
       "[Application or industry 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/services/service-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Service Name Alpha] and would like more information.",
     "featured": true
   },
@@ -39,7 +39,7 @@
       "[Application or industry 2]",
       "[Application or industry 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/services/service-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Service Name Beta] and would like more information.",
     "featured": true
   },
@@ -61,7 +61,7 @@
       "[Application or industry 2]",
       "[Application or industry 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/services/service-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Service Name Gamma] and would like more information.",
     "featured": true
   },
@@ -83,7 +83,7 @@
       "[Application or industry 2]",
       "[Application or industry 3]"
     ],
-    "image": "/images/placeholder.svg",
+    "image": "/images/services/service-placeholder.svg",
     "whatsappMessage": "Hello! I am interested in [Service Name Delta] and would like more information.",
     "featured": false
   }
